@@ -13,7 +13,7 @@ public class SpringBootJenkinsApplication {
      public static Logger logger=(Logger) LoggerFactory.getLogger(SpringBootJenkinsApplication.class);
      @PostConstruct
      public void init() {
-    	 logger.info("Application stated");
+    	 logger.info("Application started");
      }
      public static void main(String[] args) {
     	 logger.info("Application Excuted");
