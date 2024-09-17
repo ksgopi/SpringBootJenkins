@@ -16,6 +16,7 @@ class SpringBootJenkinsApplicationTests {
 	void contextLoads() {
 
 		 logger.info("Test case excecuted");
+		 logger.info("Second Test Application started");
 		
 	}
     
